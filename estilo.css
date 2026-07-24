@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  padding-left: 5px;
+
+}
+
+nav {
+  
+  padding-right: 100%;
+  padding-left: 2%;
+}
+
+a {
+    white-space: nowrap;
+}
+h3{
+    white-space: nowrap;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 16px;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sidebar h3 {
+    margin: 28px 0 12px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin: 14px 0; /* Espacio entre opciones */
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: inherit;
+    white-space: nowrap;
+}
